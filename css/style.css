@@ -34,7 +34,7 @@ body {
   color: #000;
   position: absolute;
   height: 90%;
-  overflow: auto;
+  overflow: scroll;
   box-shadow: 2px 1px 13px 0px #00000073; 
   margin-bottom: 100px;    
 }
@@ -47,7 +47,7 @@ body {
   color: #000;   
   position: absolute;
   height: 90%;
-  overflow: auto;  
+  overflow: scroll;  
   box-shadow: 2px 1px 13px 0px #00000073;  
 }
 
@@ -59,7 +59,7 @@ body {
   color: #000;
   position: absolute;  
   height: 90%;
-  overflow: auto; 
+  overflow: scroll; 
   box-shadow: 2px 1px 13px 0px #00000073; 
 }
 
@@ -71,7 +71,7 @@ body {
   color: #000;
   position: absolute;
   height: 100%;
-  overflow: auto;  
+  overflow: scroll;  
 }
 
 
@@ -132,18 +132,20 @@ body {
 }
 
 .grab {
-  cursor: -webkit-grab; cursor: grab;
+  cursor: -webkit-grab; 
+  cursor: grab;
 }
 
 .grabbing {
-  cursor: -webkit-grabbing; cursor: grabbing;
+  cursor: -webkit-grabbing; 
+  cursor: grabbing;
 }
 
 .me {
   margin: 50px 0px 0px 50px;
   position: fixed;
   z-index: -1;
-  width: 100%
+  width: 100%;
   color: #2b2b2b;
 }
 
@@ -251,28 +253,11 @@ li {
   top: 10px;   
 }
 
-.ticker {
-    position: fixed;
-    width: 100%;
-    bottom: 0px;
-    height: 25px;
-    background: #d23e2b;
-    /* opacity: .25; */
-    z-index: -1 !important;
-    overflow: auto;
-    text-align: center;
-}
-
 .display {
   display: block !important;
 }
 
-.ticker p {
-  font-size: 12px;
-  text-overflow: hidden;
-}
-
 #container {
-  overflow: auto; 
+  overflow: scroll; 
   height: 100%;  
 }
